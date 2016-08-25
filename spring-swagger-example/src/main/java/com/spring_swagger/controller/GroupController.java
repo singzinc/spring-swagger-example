@@ -17,8 +17,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.spring_swagger.model.UserGroup;
-//import io.swagger.annotations.ApiOperation;
-//import io.swagger.annotations.ApiParam;
 
 @Controller
 @RequestMapping(value = "/group", produces = { "application/json;charset=UTF-8" })

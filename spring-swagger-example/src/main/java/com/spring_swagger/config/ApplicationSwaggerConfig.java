@@ -18,9 +18,8 @@ public class ApplicationSwaggerConfig {
 		Docket docket = new Docket(DocumentationType.SWAGGER_2);
 		//ApiInfo apiInfo = new ApiInfo("restfule API", "API Document", "V.test", "www.google.com", "sing.zinc.hk@gmail.com", "", "");
 
+		// update the api doc content 
 		Contact contact = new Contact("sing", "", "sing.zinc.hk@gamil.com");
-
-		//	ApiInfo apiInfo = new ApiInfo("restful API", "API Document", "V.test", "www.google.com", "my Email", "aaaa", "bbbb");
 		ApiInfo apiInfo = new ApiInfo("restful API - title", "WEB API doc -description", "V0.0.1", "", contact, "", "");
 
 		docket.apiInfo(apiInfo);

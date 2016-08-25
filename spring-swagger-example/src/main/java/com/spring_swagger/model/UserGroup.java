@@ -3,7 +3,7 @@ package com.spring_swagger.model;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 
-@ApiModel(value = "Group model description")
+@ApiModel(value = "This is User Group model")
 public class UserGroup {
 
 	@ApiModelProperty(value = "Group Id value", required = true, example = "aaa")
