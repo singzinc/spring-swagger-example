@@ -1,19 +1,19 @@
 package com.spring_swagger.model;
 
-import com.wordnik.swagger.annotations.ApiModel;
-import com.wordnik.swagger.annotations.ApiModelProperty;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 
-@ApiModel
+@ApiModel(value = "Group model description")
 public class UserGroup {
-	
-    @ApiModelProperty(value = "Group Id", required = true)
-    private String groupId;
-    
-    @ApiModelProperty(value = "Group Name", required = true)
-    private String name;
-    
-    @ApiModelProperty(value = "Group Icon", required = false)
-    private String icon;
+
+	@ApiModelProperty(value = "Group Id value", required = true, example = "aaa")
+	private String groupId;
+
+	@ApiModelProperty(value = "Group Name value", required = true, example = "bbb")
+	private String name;
+
+	@ApiModelProperty(value = "Group Icon value", required = false, example = "ccc")
+	private String icon;
 
 	public String getGroupId() {
 		return groupId;
@@ -38,6 +38,5 @@ public class UserGroup {
 	public void setIcon(String icon) {
 		this.icon = icon;
 	}
-    
-    
+
 }
