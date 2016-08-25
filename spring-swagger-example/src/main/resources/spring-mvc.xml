@@ -10,9 +10,9 @@
 	<mvc:annotation-driven/>
 
 	<!-- <context:component-scan base-package="springfox.petstore.controller"/> -->
-	<context:component-scan base-package="com.spring_swagger.controller"/>
+	<context:component-scan base-package="com.singplayground.showcase.controller"/>
 	
-	<bean name="applicationSwaggerConfig" class="com.spring_swagger.config.ApplicationSwaggerConfig"/>
+	<bean name="applicationSwaggerConfig" class="com.singplayground.showcase.config.ApplicationSwaggerConfig"/>
 	
 	<mvc:resources mapping="*.html" location="/"/>
     <mvc:resources mapping="/**" location="/"/>

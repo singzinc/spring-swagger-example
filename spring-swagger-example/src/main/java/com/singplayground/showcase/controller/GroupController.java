@@ -1,4 +1,4 @@
-package com.spring_swagger.controller;
+package com.singplayground.showcase.controller;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.spring_swagger.model.UserGroup;
+import com.singplayground.showcase.model.UserGroup;
 
 @Controller
 @RequestMapping(value = "/group", produces = { "application/json;charset=UTF-8" })

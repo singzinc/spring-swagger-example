@@ -1,4 +1,4 @@
-package com.spring_swagger.config;
+package com.singplayground.showcase.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

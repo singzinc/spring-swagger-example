@@ -1,4 +1,4 @@
-package com.spring_swagger.model;
+package com.singplayground.showcase.model;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
