@@ -7,7 +7,7 @@ import io.swagger.annotations.ApiModelProperty;
 public class UserGroup {
 
 	@ApiModelProperty(value = "Group Id value", required = true, example = "aaa")
-	private String groupId;
+	private Long groupId;
 
 	@ApiModelProperty(value = "Group Name value", required = true, example = "bbb")
 	private String name;
@@ -15,11 +15,14 @@ public class UserGroup {
 	@ApiModelProperty(value = "Group Icon value", required = false, example = "ccc")
 	private String icon;
 
-	public String getGroupId() {
+	@ApiModelProperty(value = "total member in the group", required = true, example = "1")
+	private Integer total;
+
+	public Long getGroupId() {
 		return groupId;
 	}
 
-	public void setGroupId(String groupId) {
+	public void setGroupId(Long groupId) {
 		this.groupId = groupId;
 	}
 

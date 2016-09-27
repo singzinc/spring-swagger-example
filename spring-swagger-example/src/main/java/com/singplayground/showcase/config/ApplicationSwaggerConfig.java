@@ -21,8 +21,13 @@ public class ApplicationSwaggerConfig {
 		// update the api doc content 
 		Contact contact = new Contact("sing", "", "sing.zinc.hk@gamil.com");
 		ApiInfo apiInfo = new ApiInfo("restful API - title", "WEB API doc -description", "V0.0.1", "", contact, "", "");
-
 		docket.apiInfo(apiInfo);
+		docket.enable(true);
+
+		//		ApiListingReference apiListingReference = new ApiListingReference("" ,"" , 1);
+		//		List<ApiListingReference>  apiListingReferenceList = new ArrayList();
+		//		apiListingReferenceList.add(apiListingReference);
+		//		docket.apiListingReferenceOrdering(apiListingReferenceList);
 		return docket;
 	}
 }
